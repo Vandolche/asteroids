@@ -12,7 +12,7 @@ def main():
             if event.type == pygame.QUIT:
                 return
         
-        pygame.Surface.fill(screen, (1,1,1))
+        screen.fill((1,1,1))
         pygame.display.flip()
 
 
